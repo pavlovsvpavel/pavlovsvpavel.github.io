@@ -123,7 +123,7 @@ nav a.nav-link {
 }
 
 section[id] {
-    scroll-margin-top: 1em;
+    scroll-margin-top: 2.5em;
 }
 
 nav a.nav-link:hover {
