@@ -375,7 +375,7 @@ footer {
 
 /*Back to top button*/
 .scrollToTopBtn {
-    background-color: var(--primary-color);
+    background-color: var(--hero-bg);
     border: none;
     border-radius: 50%;
     color: var(--card-bg);
@@ -433,7 +433,7 @@ footer {
     }
 
     .hamburger-menu.active .line {
-        background-color: var(--text-color);
+        background-color: var(--card-bg);
     }
 
     .hamburger-menu {
@@ -450,15 +450,14 @@ footer {
         right: 0;
         height: 100vh;
         width: 280px;
-        background-color: var(--card-bg);
+        background-color: var(--hero-bg);
         box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
         transform: translateX(100%);
         transition: transform 0.3s ease-in-out;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 2em;
+        justify-content: flex-start;
+        padding-top: 5em;
     }
 
     nav#main-nav.nav-active {
@@ -468,8 +467,8 @@ footer {
     nav#main-nav a.nav-link {
         display: block;
         font-size: 1.5em;
-        margin: 1.5em 0;
-        color: var(--text-color);
+        margin: 1em 0;
+        color: var(--card-bg);
     }
 
     h1 {
