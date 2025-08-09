@@ -208,7 +208,7 @@ nav a.nav-link:hover {
 /* --- PROJECTS SECTION --- */
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 2em;
 }
 
@@ -485,5 +485,11 @@ footer {
 
     .skills-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .project-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
 }
